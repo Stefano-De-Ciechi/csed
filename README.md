@@ -7,10 +7,12 @@ The algorithm is embedded in a simple cli program that takes a path to an image 
 
 # Installation:
 
+```
 git clone [url of this repository]
 cd csed
 cargo build --release
 cargo run --release -- <path to image> [-o <result output>]
+```
 
 Be sure to compile in release mode, or else the program may run much slower (tested on a 1000x1500 .jpg image, debug took around 6 seconds, release about 0.25 seconds)
 
